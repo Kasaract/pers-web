@@ -2,7 +2,7 @@
   "name": "pers-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kasaract.github.io/pers-web/",
+  "homepage": "https://garynguyen.ml",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
