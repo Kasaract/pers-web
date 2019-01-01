@@ -2,6 +2,7 @@
   &__content-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding-bottom: 60px;
     background: #F2F2F2;
   }
@@ -9,8 +10,9 @@
   &__experience-container {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
     margin: 20px 0;
+    width: auto;
   }
 
   &__headline {
@@ -28,7 +30,7 @@
     height: 225px;
     background: orange;
     border-radius: 10px;
-    margin-left: 300px;
+    margin-left: 0px;
   }
 
   &__text-container {
@@ -81,7 +83,11 @@
     &__content-container {
       padding-bottom: 30px;
     }
-  
+    
+    &__experience-container {
+      padding: 0 30px;
+    }
+
     &__headline {
       font-size: 25px;
       margin-bottom: 0px;
@@ -91,13 +97,11 @@
       width: 215px;
       height: 150px;
       margin: auto 0;
-      margin-left: 50px;
     }
   
     &__text-container {
       margin-left: 40px;
       width: auto;
-      padding-right: 20px;
     }
   
     &__name {
@@ -110,6 +114,39 @@
   
     &__location {
       font-size: 18px;
+    }
+  
+    &__description {
+      font-size: 14px;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .experiences {
+    &__experience-container {
+      flex-direction: column;
+    }
+
+    &__image {
+      margin: 0 auto;
+    }
+  
+    &__text-container {
+      margin-left: 10px;
+      margin-top: 15px;
+    }
+  
+    &__name {
+      text-align: center;
+    }
+  
+    &__position {
+      text-align: center;
+    }
+  
+    &__location {
+      text-align: center;
     }
   
     &__description {

@@ -58,3 +58,25 @@
     }
   }
 }
+
+@media only screen and (max-width: 425px) {
+  .footer {
+    &__message {
+      font-size: 10px;
+      letter-spacing: 0.4px;
+      margin: auto 10px;
+    }
+  
+    &__socialmedia-icon {
+      width: 15px;
+      height: 15px;
+      padding: 0 5px;
+  
+      &:hover {
+        width: 16px;
+        height: 16px;
+        padding: 0 4.5px;
+      }
+    }
+  }
+}
