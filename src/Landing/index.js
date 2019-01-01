@@ -14,16 +14,16 @@ const Landing = () => {
         <div className="landing__major">CS and Business Analytics @MIT</div>
         <div className="landing__tagline">Creator. Developer. Learner.</div>
         <div className="landing__socialmedia-container">
-          <a href="https://www.instagram.com/garynguyen18/" target="_blank">
+          <a href="https://www.instagram.com/garynguyen18/" target="_blank" rel="noreferrer noopener nofollow">
             <img className="landing__socialmedia-icon" src={instagram} alt="IG"/>
           </a>
-          <a href="https://www.facebook.com/profile.php?id=100017551746096" target="_blank">
+          <a href="https://www.facebook.com/profile.php?id=100017551746096" target="_blank" rel="noreferrer noopener nofollow">
             <img className="landing__socialmedia-icon" src={facebook} alt="FB"/>
           </a>
-          <a href="https://www.linkedin.com/in/gary-nguyen-271504155/" target="_blank">
+          <a href="https://www.linkedin.com/in/gary-nguyen-271504155/" target="_blank" rel="noreferrer noopener nofollow">
             <img className="landing__socialmedia-icon" src={linkedin} alt="LinkedIn"/>
           </a>
-          <a href="https://twitter.com/garynguyen_18" target="_blank">
+          <a href="https://twitter.com/garynguyen_18" target="_blank" rel="noreferrer noopener nofollow">
             <img className="landing__socialmedia-icon" src={twitter} alt="Twitter"/>
           </a>
         </div>

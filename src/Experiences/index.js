@@ -26,7 +26,7 @@ const Experiences = () => {
         <img className="experiences__image" src={bidmoni} alt="Logo"/>
         <div className="experiences__text-container">
           <div className="experiences__name">
-            <a className="experiences__name-link" href="https://fiduciaryshield.bidmoni.com/" target="_blank">BidMoni Inc.</a>
+            <a className="experiences__name-link" href="https://fiduciaryshield.bidmoni.com/" target="_blank" rel="noreferrer noopener nofollow">BidMoni Inc.</a>
           </div>
           <div className="experiences__position">Data Analyst Intern // Oct 2018 - Present</div>
           <div className="experiences__location">Vancleave, Mississippi</div>
@@ -40,7 +40,7 @@ const Experiences = () => {
       <img className="experiences__image" src={neivsa} alt="Logo"/>
       <div className="experiences__text-container">
         <div className="experiences__name">
-          <a className="experiences__name-link" href="https://www.facebook.com/events/1947582202213109/" target="_blank">VES-5</a>
+          <a className="experiences__name-link" href="https://www.facebook.com/events/1947582202213109/" target="_blank" rel="noreferrer noopener nofollow">VES-5</a>
         </div>
         <div className="experiences__position">IT Committee // Oct 2018 - Present</div>
         <div className="experiences__location">Providence, Rhode Island</div>
