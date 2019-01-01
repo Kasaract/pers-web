@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/pers-web/static/media/aboutphoto.ad64b847.jpg"
   },
   {
-    "revision": "77976a31e6d082008841",
+    "revision": "117280c06956cb9587ed",
     "url": "/pers-web/static/css/main.8390cc04.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/pers-web/static/media/instagram.dd76aa36.svg"
   },
   {
-    "revision": "77976a31e6d082008841",
-    "url": "/pers-web/static/js/main.77976a31.chunk.js"
+    "revision": "117280c06956cb9587ed",
+    "url": "/pers-web/static/js/main.117280c0.chunk.js"
   },
   {
     "revision": "a99a9727a636b125b332f9cc8d1273c3",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/pers-web/static/media/subway.073e7f26.jpg"
   },
   {
-    "revision": "1a74e71f4f9d18c08ca5fe4b02fd3960",
+    "revision": "0dab644ab84522f65b33ec432d17ade3",
     "url": "/pers-web/index.html"
   }
 ];
