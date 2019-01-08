@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './bookprofile.scss';
+
 const BookProfile = (props) => {
   return (
     <div className="bookprofile__container">
