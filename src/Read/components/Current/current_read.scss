@@ -1,0 +1,17 @@
+.currentread {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+  }
+
+  &__headline {
+    text-align: left;
+    font-size: 20px;
+  }
+
+  &__book-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
