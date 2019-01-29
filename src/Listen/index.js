@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Listen from './listen.json';
+import ListenItems from './listen.json';
 import Description from '../share/components/Hobbies/Description';
 import Current from '../share/components/Hobbies/Current';
 import Recent from '../share/components/Hobbies/Recent';
@@ -14,15 +14,15 @@ const Listen = () => {
       />
       <Current 
         headline='Current'
-        items={Listen[0]}
+        items={ListenItems[0]}
       />
       <Recent 
         headline='Recent'
-        items={Listen[1]}
+        items={ListenItems[1]}
       />
       <Plan 
         headline='Plan'
-        items={Listen[2]}
+        items={ListenItems[2]}
       />
     </div>     
   )

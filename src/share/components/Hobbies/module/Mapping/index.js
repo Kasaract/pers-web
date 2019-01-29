@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Profile from '../../share/BookProfile';
+import Profile from '../../share/Profile';
 
 const Mapping = (items) => items.map(item => (
   <Profile 

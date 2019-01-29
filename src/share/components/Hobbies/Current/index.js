@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Mapping from '../module/mapBook';
+import Mapping from '../module/Mapping';
 
 const Current = (props) => {
   const display = Mapping(props.items);

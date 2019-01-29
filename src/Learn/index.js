@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Learn from './learn.json';
+import LearnItems from './learn.json';
 import Description from '../share/components/Hobbies/Description';
 import Current from '../share/components/Hobbies/Current';
 import Recent from '../share/components/Hobbies/Recent';
@@ -14,15 +14,15 @@ const Learn = () => {
       />
       <Current 
         headline='Current'
-        items={Learn[0]}
+        items={LearnItems[0]}
       />
       <Recent 
         headline='Recent'
-        items={Learn[1]}
+        items={LearnItems[1]}
       />
       <Plan 
         headline='Plan'
-        items={Learn[2]}
+        items={LearnItems[2]}
       />
     </div>     
   )

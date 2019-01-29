@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Read from './read.json';
+import ReadItems from './read.json';
 import Description from '../share/components/Hobbies/Description';
 import Current from '../share/components/Hobbies/Current';
 import Recent from '../share/components/Hobbies/Recent';
@@ -14,15 +14,15 @@ const Read = () => {
       />
       <Current 
         headline='Current'
-        items={Read[0]}
+        items={ReadItems[0]}
       />
       <Recent 
         headline='Recent'
-        items={Read[1]}
+        items={ReadItems[1]}
       />
       <Plan 
         headline='Plan'
-        items={Read[2]}
+        items={ReadItems[2]}
       />
     </div>     
   )
