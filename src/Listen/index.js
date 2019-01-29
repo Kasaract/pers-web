@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Read from './read.json';
+import Listen from './listen.json';
 import Description from '../share/components/Hobbies/Description';
 import Current from '../share/components/Hobbies/Current';
 import Recent from '../share/components/Hobbies/Recent';
 import Plan from '../share/components/Hobbies/Plan';
 
-const Read = () => {
+const Listen = () => {
   return (
     <div>
       <Description 
@@ -14,18 +14,18 @@ const Read = () => {
       />
       <Current 
         headline='Current'
-        items={Read[0]}
+        items={Listen[0]}
       />
       <Recent 
         headline='Recent'
-        items={Read[1]}
+        items={Listen[1]}
       />
       <Plan 
         headline='Plan'
-        items={Read[2]}
+        items={Listen[2]}
       />
     </div>     
   )
 }
 
-export default Read;
+export default Listen;
