@@ -1,17 +1,17 @@
 import React from 'react';
 
-import ReadDescription from './components/Description';
-import CurrentRead from './components/Current';
-import PlanRead from './components/Plan';
-import RecentRead from './components/Recent';
+import Description from '../share/components/Hobbies/Description';
+import Current from '../share/components/Hobbies/Current';
+import Recent from '../share/components/Hobbies/Recent';
+import Plan from '../share/components/Hobbies/Plan';
 
 const Read = () => {
   return (
     <div>
-      <ReadDescription />
-      <CurrentRead />
-      <PlanRead />
-      <RecentRead />
+      <Description />
+      <Current />
+      <Recent />
+      <Plan />
     </div>     
   )
 }

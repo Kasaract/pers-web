@@ -1,18 +1,16 @@
 import React from 'react';
 
-import '../share/SectionStyling/read.scss';
-import Books from './recent_read.json';
-import MapBook from '../module/mapBook';
+import Mapping from '../module/Mapping';
 
-const RecentRead = () => {
-  const displayBook = MapBook(Books);
+const Recent = (props) => {
+  const display = Mapping(props.items);
 
   return (
-    <div className="read__container">
-      <div className="read__headline">What I've Recently Read</div>
-      <div className="read__book-container">{displayBook}</div>
+    <div className="recent__container">
+      <div className="recent__headline">{props.headline}</div>
+      <div className="recent__book-container">{display}</div>
     </div>   
   )
 }
 
-export default RecentRead;
+export default Recent;
