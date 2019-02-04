@@ -1,0 +1,21 @@
+.current, .recent, .plan {
+  &__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  &__headline {
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+  &__items-container {
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+
+  }
+}
