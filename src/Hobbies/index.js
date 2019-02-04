@@ -10,14 +10,14 @@ const Hobbies = () => {
       <div className="hobbies__headline">Hobbies</div>
       <div className="hobbies__tagline">
         <Tagline
-          text="I'm a learner"
+          text="I'm a lifelong learner, and I embrace it."
         />
       </div>
       <div className="hobbies__items-container">
         <HobbyItem 
           icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH3CTaF6mpX4Zm3zv8W0bUbc-R5s77UQaqK8YE_1SVk7i7Wy7E"
-          text="Listen"
-          hobby="/listen"
+          text="Read"
+          hobby="/read"
         />
         <HobbyItem 
           icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH3CTaF6mpX4Zm3zv8W0bUbc-R5s77UQaqK8YE_1SVk7i7Wy7E"
@@ -26,8 +26,8 @@ const Hobbies = () => {
         />
         <HobbyItem 
           icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH3CTaF6mpX4Zm3zv8W0bUbc-R5s77UQaqK8YE_1SVk7i7Wy7E"
-          text="Listen"
-          hobby="/listen"
+          text="Learn"
+          hobby="/learn"
         />
       </div>
     </div>

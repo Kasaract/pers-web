@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import './hobbyitem.scss';
+
 const HobbyItem = (props) => {
   return (
     <div className="hobbyitem__container">
