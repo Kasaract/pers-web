@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Mapping from '../module/Mapping';
+import '../share/styling/hobbies_styling.scss';
 
 const Current = (props) => {
   const display = Mapping(props.items);

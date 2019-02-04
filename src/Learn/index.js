@@ -9,7 +9,7 @@ import Plan from '../share/components/Hobbies/Plan';
 
 const Learn = () => {
   return (
-    <div>
+    <div style={{marginTop: "60px"}}>
       <NavBar />
       <Description 
         description='This is a description'

@@ -15,12 +15,14 @@
     {
       "cover": "https://images-na.ssl-images-amazon.com/images/I/41lnwQQAB2L.jpg",
       "title": "Title1",
-      "author": "Author1"
+      "author": "Author1",
+      "time": "January 2019"
     },
     {
       "cover": "https://images-na.ssl-images-amazon.com/images/I/41lnwQQAB2L.jpg",
       "title": "Title2",
-      "author": "Author2"
+      "author": "Author2",
+      "time": "January 2019"
     }
   ],
   [

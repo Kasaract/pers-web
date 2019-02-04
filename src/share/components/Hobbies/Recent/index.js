@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Mapping from '../module/Mapping';
+import '../share/styling/hobbies_styling.scss';
 
 const Recent = (props) => {
   const display = Mapping(props.items);
@@ -8,7 +9,7 @@ const Recent = (props) => {
   return (
     <div className="recent__container">
       <div className="recent__headline">{props.headline}</div>
-      <div className="recent__book-container">{display}</div>
+      <div className="recent__items-container">{display}</div>
     </div>   
   )
 }
