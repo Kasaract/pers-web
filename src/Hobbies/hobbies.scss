@@ -1,0 +1,29 @@
+.hobbies {
+  &__container {
+    height: 90vh;
+    background: grey;
+  } 
+
+  &__headline {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  &__tagline {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    padding: 30px 0;
+  }
+
+  &__items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
