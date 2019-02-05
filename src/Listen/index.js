@@ -7,11 +7,9 @@ import Current from '../share/components/Hobbies/Current';
 import Recent from '../share/components/Hobbies/Recent';
 import Plan from '../share/components/Hobbies/Plan';
 
-import './listen.scss';
-
 const Listen = () => {
   return (
-    <div className="listen__container">
+    <div style={{marginTop: "60px"}}>
       <NavBar />
       <Description 
         description='This is a description'

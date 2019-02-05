@@ -1,38 +1,38 @@
 [
   [
     {
-      "cover": "https://images-na.ssl-images-amazon.com/images/I/41lnwQQAB2L.jpg",
-      "title": "Title1",
-      "author": "Author1"
+      "cover": "https://books.google.com/books/content/images/frontcover/LrFYL6NFjU8C?fife=w200-h300",
+      "title": "Crazy Rich Asians",
+      "author": "Kevin Kwan"
     },
     {
-      "cover": "https://images-na.ssl-images-amazon.com/images/I/41lnwQQAB2L.jpg",
-      "title": "Title2",
-      "author": "Author2"
+      "cover": "https://books.google.com/books/content/images/frontcover/J6grDwAAQBAJ?fife=w200-h300",
+      "title": "Enlightenment Now",
+      "author": "Steven Pinker"
     }
   ],
   [
     {
-      "cover": "https://images-na.ssl-images-amazon.com/images/I/41lnwQQAB2L.jpg",
-      "title": "Title1",
-      "author": "Author1"
+      "cover": "https://images-na.ssl-images-amazon.com/images/I/51mANAUuemL._SX311_BO1,204,203,200_.jpg",
+      "title": "Infinity: Beyond the Beyond the Beyond",
+      "author": "Lillian Lieber"
     },
     {
-      "cover": "https://images-na.ssl-images-amazon.com/images/I/41lnwQQAB2L.jpg",
-      "title": "Title2",
-      "author": "Author2"
+      "cover": "https://target.scene7.com/is/image/Target/GUEST_3266ab2a-c6bd-4fe6-a15d-7d02414b8a6c?wid=1400&fmt=webp",
+      "title": "Steve Jobs",
+      "author": "Walter Isaacson"
     }
   ],
   [
     {
-      "cover": "https://images-na.ssl-images-amazon.com/images/I/41lnwQQAB2L.jpg",
-      "title": "Title1",
-      "author": "Author1"
+      "cover": "https://images-na.ssl-images-amazon.com/images/I/51TDsIx7KqL._SX348_BO1,204,203,200_.jpg",
+      "title": "Energy and Civilization: A History",
+      "author": "Vaclav Smil"
     },
     {
-      "cover": "https://images-na.ssl-images-amazon.com/images/I/41lnwQQAB2L.jpg",
-      "title": "Title2",
-      "author": "Author2"
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/A_Thousand_Splendid_Suns.gif/220px-A_Thousand_Splendid_Suns.gif",
+      "title": "A Thousand Splendid Suns",
+      "author": "Khaled Hosseini"
     }
   ]
 ]
