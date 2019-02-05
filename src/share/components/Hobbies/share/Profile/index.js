@@ -6,9 +6,9 @@ const Profile = (props) => {
   return (
     <div className="profile__container">
       <div className="profile__link-container">
-        {/* <a href={props.link} target="_blank" rel="noreferrer noopener"> */}
+        <a href={props.link} target="_blank" rel="noreferrer noopener">
           <img className="profile__image" src={props.cover}/>
-        {/* </a> */}
+        </a>
       </div>
       <div className="profile__title">{props.title}</div>
       <div className="profile__author">{props.author}</div>

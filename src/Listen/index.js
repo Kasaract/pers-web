@@ -9,21 +9,21 @@ import Plan from '../share/components/Hobbies/Plan';
 
 const Listen = () => {
   return (
-    <div style={{marginTop: "60px"}}>
+    <div style={{paddingTop: "60px", background: "#f7f7f7"}}>
       <NavBar />
       <Description 
         description='This is a description'
       />
       <Current 
-        headline='Current'
+        headline={`What I'm Currently Listening`}
         items={ListenItems[0]}
       />
       <Recent 
-        headline='Recent'
+        headline={`What I've Recently Listened To`}
         items={ListenItems[1]}
       />
       <Plan 
-        headline='Plan'
+        headline={`What I'm Planning to Listen`}
         items={ListenItems[2]}
       />
     </div>     

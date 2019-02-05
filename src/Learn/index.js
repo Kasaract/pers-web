@@ -9,21 +9,21 @@ import Plan from '../share/components/Hobbies/Plan';
 
 const Learn = () => {
   return (
-    <div style={{marginTop: "60px"}}>
+    <div style={{paddingTop: "60px", background: "#f7f7f7"}}>
       <NavBar />
       <Description 
         description='This is a description'
       />
       <Current 
-        headline='Current'
+        headline={`What I'm Currently Learning`}
         items={LearnItems[0]}
       />
       <Recent 
-        headline='Recent'
+        headline={`What I'm Recently Learned`}
         items={LearnItems[1]}
       />
       <Plan 
-        headline='Plan'
+        headline={`What I'm Planning to Learn`}
         items={LearnItems[2]}
       />
     </div>     
