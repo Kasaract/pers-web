@@ -3,36 +3,42 @@
     {
       "cover": "https://books.google.com/books/content/images/frontcover/LrFYL6NFjU8C?fife=w200-h300",
       "title": "Crazy Rich Asians",
-      "author": "Kevin Kwan"
+      "author": "Kevin Kwan",
+      "link": "https://www.amazon.com/Crazy-Rich-Asians-Trilogy/dp/0345803787/ref=sr_1_3?ie=UTF8&qid=1549334964&sr=8-3&keywords=crazy+rich+asians"
     },
     {
       "cover": "https://books.google.com/books/content/images/frontcover/J6grDwAAQBAJ?fife=w200-h300",
       "title": "Enlightenment Now",
-      "author": "Steven Pinker"
+      "author": "Steven Pinker",
+      "link": "https://www.amazon.com/Enlightenment-Now-Science-Humanism-Progress/dp/0143111388/ref=sr_1_3?ie=UTF8&qid=1549334996&sr=8-3&keywords=enlightenment+now"
     }
   ],
   [
     {
       "cover": "https://images-na.ssl-images-amazon.com/images/I/51mANAUuemL._SX311_BO1,204,203,200_.jpg",
       "title": "Infinity: Beyond the Beyond the Beyond",
-      "author": "Lillian Lieber"
+      "author": "Lillian Lieber",
+      "link": "https://www.amazon.com/Infinity-Beyond-Lillian-R-Lieber/dp/1589880366/ref=sr_1_1?ie=UTF8&qid=1549335024&sr=8-1&keywords=infinity+beyond+the+beyond+the+beyond"
     },
     {
-      "cover": "https://target.scene7.com/is/image/Target/GUEST_3266ab2a-c6bd-4fe6-a15d-7d02414b8a6c?wid=1400&fmt=webp",
+      "cover": "data:image/webp;base64,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",
       "title": "Steve Jobs",
-      "author": "Walter Isaacson"
+      "author": "Walter Isaacson",
+      "link": "https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537/ref=sr_1_1?ie=UTF8&qid=1549335048&sr=8-1&keywords=steve+jobs+walter+issacson"
     }
   ],
   [
     {
       "cover": "https://images-na.ssl-images-amazon.com/images/I/51TDsIx7KqL._SX348_BO1,204,203,200_.jpg",
       "title": "Energy and Civilization: A History",
-      "author": "Vaclav Smil"
+      "author": "Vaclav Smil",
+      "link": "https://www.amazon.com/Energy-Civilization-History-MIT-Press/dp/0262035774/ref=sr_1_1_sspa?ie=UTF8&qid=1549335091&sr=8-1-spons&keywords=energy+and+civilization+a+history&psc=1"
     },
     {
       "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/A_Thousand_Splendid_Suns.gif/220px-A_Thousand_Splendid_Suns.gif",
       "title": "A Thousand Splendid Suns",
-      "author": "Khaled Hosseini"
+      "author": "Khaled Hosseini",
+      "link": "https://www.amazon.com/Thousand-Splendid-Suns-Khaled-Hosseini/dp/159448385X/ref=sr_1_1?ie=UTF8&qid=1549335159&sr=8-1&keywords=a+thousand+splendid+suns+by+khaled+hosseini"
     }
   ]
 ]

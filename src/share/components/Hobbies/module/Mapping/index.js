@@ -8,6 +8,7 @@ const Mapping = (items) => items.map(item => (
     title={item.title}
     author={item.author}
     time={item.time}
+    link={item.link}
   />
 ));
 
