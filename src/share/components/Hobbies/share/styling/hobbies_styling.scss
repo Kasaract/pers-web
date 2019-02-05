@@ -21,3 +21,19 @@
     flex-wrap: wrap;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .current, .recent, .plan {
+    &__headline {
+      font-size: 22.5px;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .current, .recent, .plan {
+    &__headline {
+      font-size: 20px;
+    }
+  }
+}

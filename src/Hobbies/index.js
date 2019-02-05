@@ -10,11 +10,16 @@ import headphones from './images/headphones.svg';
 
 const Hobbies = () => {
   return (
-    <div className="hobbies__container">
+    <div className="hobbies__container" id="hobbies">
       <div className="hobbies__headline">Hobbies</div>
-      <div className="hobbies__tagline">
+      <div className="hobbies__tagline" style={{paddingBottom: "10px"}}>
         <Tagline
           text="I'm a lifelong learner, and I embrace it."
+        />
+      </div>
+      <div className="hobbies__tagline">
+        <Tagline
+          text="I like to..."
         />
       </div>
       <div className="hobbies__items-container">
@@ -29,7 +34,7 @@ const Hobbies = () => {
           hobby="/listen"
         />
         <HobbyItem 
-          icon={bulb.svg}
+          icon={bulb}
           text="Learn"
           hobby="/learn"
         />

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ReadItems from './read.json';
-import NavBar from '../share/components/NavBar';
+import SecondaryNavBar from '../share/components/SecondaryNavBar';
 import Description from '../share/components/Hobbies/Description';
 import Current from '../share/components/Hobbies/Current';
 import Recent from '../share/components/Hobbies/Recent';
@@ -10,9 +10,9 @@ import Plan from '../share/components/Hobbies/Plan';
 const Read = () => {
   return (
     <div style={{paddingTop: "60px", background: "#f7f7f7"}}>
-      <NavBar />
+      <SecondaryNavBar />
       <Description 
-        description='This is a description'
+        description='"The greatest gift is a passion for reading." — Elizabeth Hardwick'
       />
       <Current 
         headline={`What I'm Currently Reading`}
