@@ -1,0 +1,44 @@
+[
+  [
+    {
+      "cover": "https://udemy-images.udemy.com/course/480x270/922484_52a1_5.jpg",
+      "title": "Node.js Developer Course",
+      "author": "Andrew Mead",
+      "link": "https://www.udemy.com/the-complete-nodejs-developer-course-2/learn/v4/overview"
+    }
+  ],
+  [
+    {
+      "cover": "https://udemy-images.udemy.com/course/480x270/705264_caa9_8.jpg",
+      "title": "Modern React with Redux",
+      "author": "Stephen Grider",
+      "link": "https://www.udemy.com/react-redux/learn/v4/overview"
+    }
+  ],
+  [
+    {
+      "cover": "https://udemy-images.udemy.com/course/480x270/903744_8eb2.jpg",
+      "title": "Python for Data Science & Machine Learning",
+      "author": "Jose Portilla",
+      "link": "https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/learn/v4/overview"
+    },
+    {
+      "cover": "https://udemy-images.udemy.com/course/480x270/619222_0b73_5.jpg",
+      "title": "Nginx Fundamentals",
+      "author": "Ray Viljeon",
+      "link": "https://www.udemy.com/nginx-fundamentals/learn/v4/overview"
+    },
+    {
+      "cover": "https://udemy-images.udemy.com/course/480x270/1326292_4dcf.jpg",
+      "title": "Tensorflow for Deep Learning",
+      "author": "Jose Portilla",
+      "link": "https://www.udemy.com/complete-guide-to-tensorflow-for-deep-learning-with-python/learn/v4/overview"
+    },
+    {
+      "cover": "https://udemy-images.udemy.com/course/480x270/1035000_c1aa_2.jpg",
+      "title": "Docker Mastery",
+      "author": "Ray Viljeon",
+      "link": "https://www.udemy.com/docker-mastery/learn/v4/overview"
+    }
+  ]
+]

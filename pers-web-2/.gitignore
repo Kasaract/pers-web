@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-/pers-web-2/node_modules
 /.pnp
 .pnp.js
 
