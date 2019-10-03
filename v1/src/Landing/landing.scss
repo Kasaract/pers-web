@@ -1,0 +1,118 @@
+.landing {
+  &__container {
+    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)), url('./images/subway.jpg');
+    overflow: hidden;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-top: -20px;
+  }
+
+  &__text-container {
+    text-align: left;
+    position: relative;
+    top: 30%;
+    margin-left: 80px;
+  }
+
+  &__name {
+    font-size: 60px;
+    margin: 15px 0;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 5px;
+    // font-family: sans-serif;
+    font-family: 'Open Sans';
+
+  }
+
+  &__major, &__tagline {
+    font-size: 35px;
+    margin: 15px 0;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 1px;
+  }
+
+  &__socialmedia-container {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 75px;
+    margin-top: 30px;
+    height: 30px;
+  }
+
+  &__socialmedia-icon {
+    width: 27.5px;
+    padding: 0 20px;
+
+    &:hover {
+      width: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .landing {  
+    &__text-container {
+      margin-left: 50px;
+    }
+  
+    &__name {
+      font-size: 45px;
+      margin: 10px 0;
+      letter-spacing: 4px;
+    }
+  
+    &__major, &__tagline {
+      font-size: 30px;
+      margin: 10px 0;
+    }
+  
+    &__socialmedia-container {
+      margin-left: 55px;
+      margin-top: 25px;
+    }
+  
+    &__socialmedia-icon {
+      width: 27.5px;
+      padding: 0 15px;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .landing {
+    &__container {
+      background-position-x: 60%;
+    }
+
+    &__text-container {
+      margin-left: 25px;
+      top: 25%;
+    }
+  
+    &__name {
+      font-size: 30px;
+      margin: 10px 0;
+      letter-spacing: 0.5px;
+    }
+  
+    &__major, &__tagline {
+      font-size: 15px;
+      margin: 10px 0;
+      letter-spacing: 0.5px;
+    }
+  
+    &__socialmedia-container {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+  
+    &__socialmedia-icon {
+      width: 15px;
+      padding: 0 10px;
+    }
+  }
+}

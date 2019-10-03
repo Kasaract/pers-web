@@ -1,0 +1,56 @@
+.hobbyitem {
+  &__icon {
+    height: 180px;
+    width: 180px;
+
+    &:hover {
+      height: 190px;
+      width: 190px;
+    }
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__text {
+    font-size: 27px;
+    padding: 15px 0;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .hobbyitem {
+    &__icon {
+      height: 110px;
+      width: 110px;
+
+      &:hover {
+        height: 115px;
+        width: 115px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .hobbyitem {
+    &__icon {
+      height: 50px;
+      width: 50px;
+
+      &:hover {
+        height: 55px;
+        width: 55px;
+      }
+    }
+
+    &__text {
+      font-size: 18px;
+      padding: 15px 0;
+      padding-bottom: 40px;
+    }
+  }
+}

@@ -1,0 +1,119 @@
+.about {
+  &__container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+    padding-bottom: 60px;
+  }
+
+  &__headline {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+  }
+
+  &__content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  &__picture {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 100px;
+  }
+
+  &__message-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 70px;
+    width: 40%;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  &__paragraph {
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    line-height: 27.5px;
+    margin: 10px 0;
+  }
+
+  &__paragraph-link {
+    color: black;
+
+    &:hover {
+      color: darkblue;
+      font-size: 18.2px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about {
+    &__container {
+        padding: 0 0;
+        padding-bottom: 30px;
+    }
+
+    &__headline {
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+
+    &__picture {
+      margin: auto 0;
+      width: 250px;
+      height: 250px;
+    }
+  
+    &__message-container {
+      margin-left: 40px;
+    }
+  
+    &__paragraph {
+      font-size: 14px;
+      margin: 5px 0;
+      line-height: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .about {
+    &__headline {
+      margin-bottom: 15px;
+    }
+
+    &__content-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &__picture {
+      margin: auto auto;
+      width: 200px;
+      height: 200px;
+    }
+  
+    &__message-container {
+      margin: auto auto;
+      margin-top: 10px;
+      width: 85%;
+      font-family: 'Open Sans', sans-serif;
+    }
+  
+    &__paragraph {
+      line-height: 18px;
+    }
+  }
+}
