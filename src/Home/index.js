@@ -10,27 +10,25 @@ import linkedin from '../share/images/social-media-icons/linkedin.svg';
 import twitter from '../share/images/social-media-icons/twitter.svg';
 import instagram from '../share/images/social-media-icons/instagram.svg';
 import github from '../share/images/social-media-icons/github.svg';
+import headshot from '../share/images/gary3.jpg';
 import './Home.scss';
 
 const Home = () => {
   const [navOpen, setNavOpen] = useState(false)
 
   return (
-    <div class="home_wrapper">
+    <div className="home_wrapper">
       
-      <div class="middle_layer" />
-      <div class="top_layer" />
+      <div className="middle_layer" />
+      <div className="top_layer" />
 
-      
-      { navOpen ? <div class="navbar_dark_layer" /> : <div></div> }
-      <NavBar open={navOpen} handleClick={setNavOpen}/>
-
-      <div class="intro">
-        <div class="intro__image"/>
-        <div class="intro__text">
-          <div class="name">Gary Nguyen</div>
-          <div class="education">CS @ MIT</div>
-          <div class="tagline">Creator. Developer. Learner.</div>
+      <div className="intro">
+        {/* <div className="intro__image"/> */}
+        <img className="intro__image" src={headshot} alt="home"/>
+        <div className="intro__text">
+          <div className="name">Gary Nguyen</div>
+          <div className="education">CS @ MIT</div>
+          <div className="tagline">Creator. Developer. Learner.</div>
           <div className="social-media">
             <a href="https://www.instagram.com/garynguyen18/" target="_blank" rel="noreferrer noopener nofollow">
               <img className="icon" src={instagram} alt="IG"/>
@@ -50,6 +48,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+
+      <NavBar open={navOpen} handleClick={setNavOpen}/>
 
       <Particles
         style={{backgroundColor: "#297CBF"}}

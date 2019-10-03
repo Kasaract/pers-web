@@ -9,23 +9,24 @@ const NavBar = ({open, handleClick}) => {
   const handleNavClick = () => handleClick(!open);
 
   return (
-    <nav role="navigation">
-      <div id="menuToggle">
-        <input type="checkbox" onClick={handleNavClick}/>
-      
-        {/* Burger */}
-        <span></span>
-        <span></span>
-        <span></span>
+    <>
+      { open ? <div class="dark_layer" onClick={() => handleNavClick()}/> : <div /> }
+      <nav role="navigation">
+        <div id="menuToggle">
+  { open ? <input type="checkbox" onClick={handleNavClick} checked /> : <input type="checkbox" onClick={handleNavClick} /> }
         
-        <ul id="menu">
-          <a href="#"><li>Home</li></a>
-          <Link to="/about"><li onClick={handleNavClick}>About</li></Link>
-          <a href="#"><li>Info</li></a>
-          <a href="#"><li>Contact</li></a>
-        </ul>
-      </div>
-    </nav>
+          {/* Burger */}
+          <span></span>
+          <span></span>
+          <span></span>
+          
+          <ul id="menu">
+            <Link to="/"><li>Home</li></Link>
+            <Link to="/about"><li onClick={handleNavClick}>About</li></Link>
+          </ul>
+        </div>
+      </nav>
+    </>
   );
 }
 
