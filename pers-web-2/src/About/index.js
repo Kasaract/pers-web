@@ -1,24 +1,52 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import './about.scss';
-import Gary from './images/aboutphoto.jpg';
+import NavBar from '../share/components/NavBar';
 
-const About = () => {
-	return (
-    <div className="about__container" id="about">
-      <div className="about__headline">About</div>
-      <div className="about__content-container">
-        <img className="about__picture" src={Gary} alt="Photo"/>
-        <div className="about__message-container">
-          <p className="about__paragraph">Hey there! I'm Gary, a freshman at MIT studying Computer Science and Business Analytics.</p>
-          <p className="about__paragraph">I am currently a remote intern at <a className="about__paragraph-link" href="https://fiduciaryshield.bidmoni.com/" target="_blank" rel="noopener noreferrer">BidMoni Inc.</a> working with data analytics and a front-end developer for the annual <a className="about__paragraph-link" href="https://newenglandivsa.org/" target="_blank">NEIVSA</a> <a className="about__paragraph-link" href="https://www.facebook.com/events/1947582202213109/" target="_blank"> Vietnamese Empowerment Summit.</a></p>
-          <p className="about__paragraph">Some fun things I like to do in my free time are playing table tennis, competing in chess, and rewatching Naruto episodes.</p>
-          <p className="about__paragraph">Feel free to connect with me at <a className="about__paragraph-link" href="mailto:garynguyen2018@gmail.com" target="_blank" rel="noopener noreferrer">garynguyen2018@gmail.com!</a></p>
+
+import facebook from '../share/images/social-media-icons/facebook.svg';
+import linkedin from '../share/images/social-media-icons/linkedin.svg';
+import twitter from '../share/images/social-media-icons/twitter.svg';
+import instagram from '../share/images/social-media-icons/instagram.svg';
+import github from '../share/images/social-media-icons/github.svg';
+import './About.scss';
+
+const Home = () => {
+  const [navOpen, setNavOpen] = useState(false)
+
+  return (
+    <div class="home_wrapper">
+
+      
+      { navOpen ? <div class="navbar_dark_layer" /> : <div></div> }
+      <NavBar open={navOpen} handleClick={setNavOpen}/>
+
+      <div class="intro">
+        <div class="intro__image"/>
+        <div class="intro__text">
+          <div class="name">Gary Nguyen</div>
+          <div class="education">CS @ MIT</div>
+          <div class="tagline">Creator. Developer. Learner.</div>
+          <div className="social-media">
+            <a href="https://www.instagram.com/garynguyen18/" target="_blank" rel="noreferrer noopener nofollow">
+              <img className="icon" src={instagram} alt="IG"/>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100017551746096" target="_blank" rel="noreferrer noopener nofollow">
+              <img className="icon" src={facebook} alt="FB"/>
+            </a>
+            <a href="https://www.linkedin.com/in/gary-nguyen-271504155/" target="_blank" rel="noreferrer noopener nofollow">
+              <img className="icon" src={linkedin} alt="LinkedIn"/>
+            </a>
+            <a href="https://twitter.com/garynguyen_18" target="_blank" rel="noreferrer noopener nofollow">
+              <img className="icon" src={twitter} alt="Twitter"/>
+            </a>
+            <a href="https://twitter.com/garynguyen_18" target="_blank" rel="noreferrer noopener nofollow">
+              <img className="icon" src={github} alt="Github"/>
+            </a>
+          </div>
         </div>
       </div>
-
     </div>
-	)
+  )
 }
 
-export default About;
+export default Home;
