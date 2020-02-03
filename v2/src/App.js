@@ -1,11 +1,12 @@
 import React from 'react';
 
-import Main from './Main';
+import Routes from './Routes';
+// import Footer from './share/components/Footer';
 
 const App = () => {
   return (
     <div>
-      <Main />
+      <Routes />
     </div>
   );
 }

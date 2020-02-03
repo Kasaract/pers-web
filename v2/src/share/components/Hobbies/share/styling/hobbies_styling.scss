@@ -1,0 +1,39 @@
+.current, .recent, .plan {
+  &__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0;
+    background: #f7f7f7;
+  }
+
+  &__headline {
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 15px;
+  }
+
+  &__items-container {
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .current, .recent, .plan {
+    &__headline {
+      font-size: 22.5px;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .current, .recent, .plan {
+    &__headline {
+      font-size: 20px;
+    }
+  }
+}
