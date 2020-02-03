@@ -4,7 +4,14 @@ import './Contact.scss';
 
 const Contact = () => (
   <div>
-    Contact
+    <div>Let's get in touch!</div>
+    <div className="d-flex flex-row">
+      <div>Icon</div>
+      <div>Icon</div>
+      <div>Icon</div>
+      <div>Icon</div>
+      <div>Icon</div>
+    </div>
   </div>
 );
 
