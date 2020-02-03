@@ -5,8 +5,11 @@ import './Home.scss';
 
 const Home = () => {
   return (
-    <div className="">
-      <img src={bg} alt="background" className="w-100" />
+    <div className="" style={{ height: '100vh', overflow: 'hidden' }}>
+      <div className="position-relative background w-100">
+        Hello
+        <div className="layer" />
+      </div>
     </div>
   )
 }
