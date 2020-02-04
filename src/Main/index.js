@@ -2,8 +2,8 @@ import React from 'react';
 import Home from '../Home';
 import About from '../About';
 import Projects from '../Projects';
-import Design from '../Design';
-import Photography from '../Photography';
+// import Design from '../Design';
+// import Photography from '../Photography';
 import Contact from '../Contact';
 
 const Main = () => (
@@ -11,8 +11,8 @@ const Main = () => (
     <Home />
     <About />
     <Projects />
-    <Design />
-    <Photography />
+    {/* <Design />
+    <Photography /> */}
     <Contact />
   </div>
 )

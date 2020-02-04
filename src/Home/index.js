@@ -15,14 +15,14 @@ const Home = () => {
           <a class="p-3 text-white" href="#">Home</a>
           <a class="p-3 text-white" href="#">About</a>
           <a class="p-3 text-white" href="#">Projects</a>
-          <a class="p-3 text-white" href="#">Design</a>
-          <a class="p-3 text-white" href="#">Photography</a>
+          {/* <a class="p-3 text-white" href="#">Design</a>
+          <a class="p-3 text-white" href="#">Photography</a> */}
           <a class="p-3 text-white" href="#">Contact</a>
         </nav>
       </div>
-      <div className="">
-        <h1 className="text-white text-center">Gary Nguyen</h1>
-        <h6 className="text-white text-center">Aspiring front-end developer, UI/UX designer, and photographer</h6>
+      <div className="h-75 d-flex flex-column justify-content-center">
+        <h1 className="text-white text-center mt-4" style={{ fontSize: '5.5rem', letterSpacing: '0.5rem' }}>Gary Nguyen</h1>
+        <p className="text-white text-center my-4" style={{ fontSize: '1.5rem' }}>Aspiring Developer, Designer, and Photographer</p>
       </div>
     </div>
   )
