@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ac45426d9bff56978bc3c03bff12227",
+    "revision": "617300e409fa4427b5ec4533e1275eef",
     "url": "/index.html"
   },
   {
-    "revision": "df764ed6a652a86221c6",
-    "url": "/static/css/main.8696d094.chunk.css"
+    "revision": "85377bae6b3de47c09f0",
+    "url": "/static/css/main.099870b8.chunk.css"
   },
   {
-    "revision": "14bf6958e7b674082cf3",
-    "url": "/static/js/2.b2bfebc3.chunk.js"
+    "revision": "486ebfaffcdfbedeaadc",
+    "url": "/static/js/2.7a465f0a.chunk.js"
   },
   {
-    "revision": "df764ed6a652a86221c6",
-    "url": "/static/js/main.fbc0869d.chunk.js"
+    "revision": "85377bae6b3de47c09f0",
+    "url": "/static/js/main.2419db85.chunk.js"
   },
   {
     "revision": "679fd54d8a8c2a83dddb",
     "url": "/static/js/runtime-main.d3268165.js"
-  },
-  {
-    "revision": "290acccdcf138f7668a1c74415f6417a",
-    "url": "/static/media/NGUYEN_GARY_resume.290acccd.pdf"
   },
   {
     "revision": "ad64b847a388ae84e42c9e7e015d0906",
@@ -32,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/facebook.70afa4d4.svg"
   },
   {
-    "revision": "ab6643870117f689cedc6b215e56357c",
-    "url": "/static/media/gary3.ab664387.jpg"
+    "revision": "44c40d325b56564506bd2762ff6cbe83",
+    "url": "/static/media/filler_bg.44c40d32.jpg"
   },
   {
     "revision": "e5af0bc2888e6d195aa8c07517e7c5ec",
