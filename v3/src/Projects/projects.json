@@ -1,0 +1,78 @@
+{
+	"projects": [
+		{
+			"row": [
+				{
+					"img": "./assets/hear.png",
+					"name": "hear",
+					"desc": "A platform catered to the hearing-impaired that seeks them to provide a visually rich podcast experience.",
+					"action": "View on Devpost!",
+					"link": "https://devpost.com/software/hear-podcasts-made-accessible"
+				},
+				{
+					"img": "./assets/syncup.jpg",
+					"name": "SyncUp",
+					"desc": "A social app dedicated to connecting groups of people who share similar music tastes, especially niche genres.",
+					"action": "View on Devpost!",
+					"link": "https://devpost.com/software/syncup-8ji0su"
+				},
+				{
+					"img": "./assets/bump.jpg",
+					"name": "BumpApp",
+					"desc": "A smart location-based conversation starter that connects nearby users with similar interests.",
+					"action": "View on Devpost!",
+					"link": "https://devpost.com/software/bump-q8n9fb"
+				}
+			]
+		},
+		{
+			"row": [
+				{
+					"img": "./assets/foodie.png",
+					"name": "Foodie",
+					"desc": "A platform for food enthusiasts to keep track of restaurants they've tried and to discover new ones.",
+					"action": "Coming soon!",
+					"link": ""
+				},
+				{
+					"img": "./assets/neivsa.png",
+					"name": "NEIVSA Summit",
+					"desc": "A collegiate Vietnamese leadership conference. Helped to develop front-end for over 200 attendees.",
+					"action": "View website!",
+					"link": "https://summit.newenglandivsa.org/"
+				},
+				{
+					"img": "./assets/brainpower.png",
+					"name": "Brain Power",
+					"desc": "Company building learning tools for students with ADHD and autism. Currently interning on full-stack team.",
+					"action": "Learn more!",
+					"link": "https://empoweredbrain.io/#product"
+				}
+			]
+		},
+		{
+			"row": [
+				{
+					"img": "./assets/gina.png",
+					"name": "Personal Website",
+					"desc": "A journalism portfolio for a client exhibiting her work in different media and writings.",
+					"action": "Coming soon!",
+					"link": ""
+				},
+				{
+					"img": "./assets/aida.png",
+					"name": "Aida",
+					"desc": "A dashboard built to gamify everyday chores and tasks to incentivize my brother to stay motivated.",
+					"action": "Coming soon!"
+				},
+				{
+					"img": "./assets/filler_bg.jpg",
+					"name": "",
+					"desc": "This is a description. I did so and so, and contributed this and that! I did so and so, and contributed this and that!",
+					"action": "Coming soon!",
+					"link": ""
+				}
+			]
+		}
+	]
+}
