@@ -67,7 +67,7 @@ const Experiences = () => {
 						data-aos-duration="800"
 						class="styling_image "
 					>
-						<img src="./assets/brainpower.PNG" alt="brain power" />
+						<img src="./assets/brainpower.png" alt="brain power" />
 						<a style={{ display: 'block' }} href="https://brain-power.com/">
 							<span class="divLink"></span>
 						</a>
