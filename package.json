@@ -5,17 +5,14 @@
 	"homepage": "https://garynguyen.com",
 	"dependencies": {
 		"aos": "^2.3.4",
-		"gh-pages": "^2.1.1",
-		"node-sass": "^4.12.0",
-		"react": "^16.10.1",
+		"react": "^18.2.0",
 		"react-anchor-link-smooth-scroll": "^1.0.12",
-		"react-dom": "^16.10.1",
-		"react-particles-js": "^2.7.0",
-		"react-pdf": "^4.1.0",
-		"react-router": "^5.1.1",
-		"react-router-dom": "^5.1.1",
-		"react-scripts": "3.1.2",
-		"react-scroll": "^1.7.16"
+		"react-dom": "^18.2.0",
+		"react-pdf": "^7.5.0",
+		"react-router": "^6.16.0",
+		"react-router-dom": "^6.16.0",
+		"react-scripts": "^5.0.1",
+		"react-scroll": "^1.9.0"
 	},
 	"scripts": {
 		"start": "react-scripts start",
