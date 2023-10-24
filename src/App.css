@@ -537,12 +537,18 @@ a:hover {
 	font-weight: 500;
 }
 
+.title {
+	font-size: 1.5rem;
+	letter-spacing: 0.1rem;
+	font-weight: 500;
+}
+
 .profile-pic {
-	height: 20rem;
+	height: 25rem;
 }
 
 .intro {
-	font-size: 1.25rem;
+	font-size: 1.15rem;
 }
 
 @media (max-width: 768px) {

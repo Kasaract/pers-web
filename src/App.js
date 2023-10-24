@@ -9,8 +9,8 @@ import './App.css';
 
 import Github from './share/images/social-media-icons/github.svg';
 import LinkedIn from './share/images/social-media-icons/linkedin.svg';
-import Twitter from './share/images/social-media-icons/twitter.svg';
-import Instagram from './share/images/social-media-icons/instagram.svg';
+// import Twitter from './share/images/social-media-icons/twitter.svg';
+// import Instagram from './share/images/social-media-icons/instagram.svg';
 
 const App = () => {
   return (
@@ -27,9 +27,9 @@ const App = () => {
             <a id="photographyNav" class="projectsNav" href="#projects">
               Projects
             </a>
-            {/* <a id="contactNav" class="designNav" href="#design">
-							Design
-						</a> */}
+            <a id="contactNav" class="designNav" href="#design">
+              Design
+            </a>
           </div>
         </div>
         <div id="menu" class="navsign my-auto">
@@ -48,7 +48,7 @@ const App = () => {
       <Home />
       <Experiences />
       <Projects />
-      {/* <Design /> */}
+      <Design />
       <div
         className="social-container"
         data-aos="fade-up"
@@ -67,7 +67,7 @@ const App = () => {
                 <img src={Github} alt="Github" />
               </a>
             </li>
-            <li className="social-item">
+            <li className="social-item last-social-item">
               <a
                 className="social-link"
                 target="_blank"
@@ -77,7 +77,7 @@ const App = () => {
                 <img src={LinkedIn} alt="LinkedIn" />
               </a>
             </li>
-            <li className="social-item">
+            {/* <li className="social-item">
               <a
                 className="social-link"
                 target="_blank"
@@ -100,7 +100,7 @@ const App = () => {
                   alt="Instagram"
                 />
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
@@ -111,8 +111,8 @@ const App = () => {
         data-aos-duration="800"
       >
         <div className="email-wrapper">
-          <a className="email-link" href="mailto:nguyeng@mit.edu">
-            nguyeng@mit.edu
+          <a className="email-link" href="mailto:garynguyen2018@gmail.com">
+            garynguyen2018@gmail.com
           </a>
         </div>
       </div>
