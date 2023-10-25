@@ -61,7 +61,7 @@ const Home = () => {
                 </div>
                 <div className="mb-2">
                   Codecademy was how I got my start back in 2012. W3 and YouTube
-                  gave me my taste of coding - and the bugs shortly after. Fast
+                  gave me my taste of coding — and the bugs shortly after. Fast
                   forward to today, I've had opportunities to contribute in
                   development for a{' '}
                   <a className="intro-company" href="#experiences">
@@ -86,9 +86,9 @@ const Home = () => {
                   .
                 </div>
                 <div>
-                  When I'm away from the keyboard, I'm trying to keep my streak
-                  alive on Duolingo, struggling with the L.A. Times crossword,
-                  or catching up on the{' '}
+                  When I'm away from the keyboard, I'm keeping my streak alive
+                  on Duolingo, struggling with the L.A. Times crossword, or
+                  catching up on the{' '}
                   <a
                     className="newsletter"
                     href="https://www.tldr.tech/"
