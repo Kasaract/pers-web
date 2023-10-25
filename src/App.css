@@ -580,6 +580,16 @@ a:hover {
 	font-weight: 500;
 }
 
+.intro-company {
+	color: black;
+	font-weight: 500;
+}
+
+.intro-company:hover {
+	color: #0d2494;
+	font-weight: 500;
+}
+
 #menu {
 	left: 20px;
 }

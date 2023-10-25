@@ -53,33 +53,49 @@ const Home = () => {
                 data-aos-duration="800"
                 data-aos-anchor-placement="top-center"
               >
-                <div className="mb-3 pt-0">
+                <div className="mb-2 pt-0">
                   Welcome! Thanks for stopping by!{' '}
                   <span role="img" aria-label="emoji">
                     👋
                   </span>
                 </div>
-                <div className="">
+                <div className="mb-2">
                   Codecademy was how I got my start back in 2012. W3 and YouTube
                   gave me my taste of coding - and the bugs shortly after. Fast
                   forward to today, I've had opportunities to contribute in
-                  development for a <a href="">health data leader</a>, a web3
-                  pioneer , an aerospace leader, an education start-up, and a
-                  research lab.
+                  development for a{' '}
+                  <a className="intro-company" href="#experiences">
+                    health data leader
+                  </a>
+                  , a{' '}
+                  <a className="intro-company" href="#experiences">
+                    web3 experimentalist
+                  </a>
+                  , an{' '}
+                  <a className="intro-company" href="#experiences">
+                    aerospace leader
+                  </a>
+                  , an{' '}
+                  <a className="intro-company" href="#experiences">
+                    education start-up
+                  </a>
+                  , and a{' '}
+                  <a className="intro-company" href="#experiences">
+                    research lab
+                  </a>
+                  .
                 </div>
                 <div>
+                  When I'm away from the keyboard, I'm trying to keep my streak
+                  alive on Duolingo, struggling with the L.A. Times crossword,
+                  or catching up on the{' '}
                   <a
                     className="newsletter"
-                    href="https://www.technologyreview.com/"
+                    href="https://www.tldr.tech/"
+                    target="_blank"
+                    rel="noreferrer"
                   >
-                    The Download
-                  </a>{' '}
-                  and{' '}
-                  <a
-                    className="newsletter"
-                    href="https://www.technologyreview.com/"
-                  >
-                    Morning Brew
+                    TLDR newsletter
                   </a>
                   !
                 </div>
