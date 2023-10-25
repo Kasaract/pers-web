@@ -16,6 +16,7 @@ const Experiences = () => {
 
       {/* InterSystems */}
       <div
+        id="intersystems"
         class="row  justify-content-center"
         style={{ marginBottom: '120px' }}
       >
@@ -61,7 +62,11 @@ const Experiences = () => {
       </div>
 
       {/* MIT CSAIL */}
-      <div class="row justify-content-center" style={{ marginBottom: '120px' }}>
+      <div
+        id="mit-csail"
+        class="row justify-content-center"
+        style={{ marginBottom: '120px' }}
+      >
         <div class="col-lg-6 no_padding">
           <div
             data-aos="fade-up"
@@ -112,6 +117,7 @@ const Experiences = () => {
 
       {/* Fundamental Secrets */}
       <div
+        id="fundamental-secrets"
         class="row  justify-content-center"
         style={{ marginBottom: '120px' }}
       >
@@ -152,7 +158,11 @@ const Experiences = () => {
       </div>
 
       {/* Emergent */}
-      <div class="row justify-content-center" style={{ marginBottom: '120px' }}>
+      <div
+        id="emergent"
+        class="row justify-content-center"
+        style={{ marginBottom: '120px' }}
+      >
         <div class="col-lg-6 no_padding">
           <div
             data-aos="fade-up"
@@ -194,6 +204,7 @@ const Experiences = () => {
 
       {/* Brain Power */}
       <div
+        id="brain-power"
         class="row  justify-content-center"
         style={{ marginBottom: '120px' }}
       >
@@ -229,7 +240,11 @@ const Experiences = () => {
       </div>
 
       {/* MIT Media Lab */}
-      <div class="row justify-content-center" style={{ marginBottom: '120px' }}>
+      <div
+        id="mit-media-lab"
+        class="row justify-content-center"
+        style={{ marginBottom: '120px' }}
+      >
         <div class="col-lg-6 no_padding">
           <div
             data-aos="fade-up"

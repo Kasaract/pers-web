@@ -64,23 +64,23 @@ const Home = () => {
                   gave me my taste of coding — and the bugs shortly after. Fast
                   forward to today, I've had opportunities to contribute in
                   development for a{' '}
-                  <a className="intro-company" href="#experiences">
+                  <a className="intro-company" href="#intersystems">
                     health data leader
                   </a>
                   , a{' '}
-                  <a className="intro-company" href="#experiences">
+                  <a className="intro-company" href="#fundamental-secrets">
                     web3 experimentalist
                   </a>
                   , an{' '}
-                  <a className="intro-company" href="#experiences">
+                  <a className="intro-company" href="#emergent">
                     aerospace leader
                   </a>
                   , an{' '}
-                  <a className="intro-company" href="#experiences">
+                  <a className="intro-company" href="#brain-power">
                     education start-up
                   </a>
                   , and a{' '}
-                  <a className="intro-company" href="#experiences">
+                  <a className="intro-company" href="#mit-csail">
                     research lab
                   </a>
                   .
